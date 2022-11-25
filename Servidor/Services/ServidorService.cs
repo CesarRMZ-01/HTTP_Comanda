@@ -14,6 +14,9 @@ namespace Servidor.Services
     {
 
         HttpListener listener = new();
+
+        public Action<Orden> OrdenRecibida { get; internal set; }
+
         public event Action<Orden>? PedidoRecibido;
 
         public ServidorService()

@@ -14,7 +14,7 @@ namespace Cliente.Services
 
         public ClienteService()
         {
-            cliente.BaseAddress = new Uri("https://6141-187-209-255-62.ngrok.io/votacion/");
+            cliente.BaseAddress = new Uri("https://6141-187-209-255-62.ngrok.io/comanda/");
         }
 
         //public async Task<Pregunta> GetPregunta()
